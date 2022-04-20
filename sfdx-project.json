@@ -1,0 +1,12 @@
+{
+  "packageDirectories": [
+    {
+      "path": "force-app",
+      "default": true
+    }
+  ],
+  "name": "Project2",
+  "namespace": "",
+  "sfdcLoginUrl": "https://brave-otter-o0g6wy-dev-ed.my.salesforce.com/",
+  "sourceApiVersion": "54.0"
+}
