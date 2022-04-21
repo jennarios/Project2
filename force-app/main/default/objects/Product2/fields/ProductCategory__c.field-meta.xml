@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ProductCategory__c</fullName>
+    <description>For use as controlling field in product family</description>
+    <externalId>false</externalId>
+    <label>Product Category</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Family</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Food</fullName>
+                <default>true</default>
+                <label>Food</label>
+            </value>
+            <value>
+                <fullName>Treats</fullName>
+                <default>false</default>
+                <label>Treats</label>
+            </value>
+            <value>
+                <fullName>Toys</fullName>
+                <default>false</default>
+                <label>Toys</label>
+            </value>
+            <value>
+                <fullName>Beds and Crates</fullName>
+                <default>false</default>
+                <label>Beds and Crates</label>
+            </value>
+            <value>
+                <fullName>Bowls and Feeders</fullName>
+                <default>false</default>
+                <label>Bowls and Feeders</label>
+            </value>
+            <value>
+                <fullName>Grooming</fullName>
+                <default>false</default>
+                <label>Grooming</label>
+            </value>
+            <value>
+                <fullName>Litter</fullName>
+                <default>false</default>
+                <label>Litter</label>
+            </value>
+            <value>
+                <fullName>Leashes Collars Harnesses</fullName>
+                <default>false</default>
+                <label>Leashes Collars Harnesses</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Dog</controllingFieldValue>
+            <controllingFieldValue>Cat</controllingFieldValue>
+            <valueName>Food</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dog</controllingFieldValue>
+            <controllingFieldValue>Cat</controllingFieldValue>
+            <valueName>Treats</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dog</controllingFieldValue>
+            <controllingFieldValue>Cat</controllingFieldValue>
+            <valueName>Toys</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dog</controllingFieldValue>
+            <controllingFieldValue>Cat</controllingFieldValue>
+            <valueName>Beds and Crates</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dog</controllingFieldValue>
+            <controllingFieldValue>Cat</controllingFieldValue>
+            <valueName>Bowls and Feeders</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dog</controllingFieldValue>
+            <controllingFieldValue>Cat</controllingFieldValue>
+            <valueName>Grooming</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cat</controllingFieldValue>
+            <valueName>Litter</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>
