@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Pet_Inventory__c</fullName>
+    <businessStatus>Active</businessStatus>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <externalId>false</externalId>
+    <label>Pet Inventory</label>
+    <referenceTo>Product2</referenceTo>
+    <relationshipLabel>Pets Inventory</relationshipLabel>
+    <relationshipName>Pets_Inventory</relationshipName>
+    <required>false</required>
+    <securityClassification>Public</securityClassification>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>
