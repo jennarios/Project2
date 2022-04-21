@@ -3,6 +3,19 @@
 # For useful gitignore templates see: https://github.com/github/gitignore
 
 # Salesforce cache
+# Ignore useless stuff
+.husky/
+.vscode/
+config/
+scripts/
+.eslintignore
+.prettierignore
+.prettierrc
+jest.config.js
+package.json
+sfdx-project.json
+
+# Salesforce cache
 .sf/
 .sfdx/
 .localdevserver/
@@ -16,8 +29,8 @@ coverage/
 
 # Logs
 logs
-*.log
-npm-debug.log*
+.log
+npm-debug.log
 yarn-debug.log*
 yarn-error.log*
 
