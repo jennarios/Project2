@@ -22,7 +22,8 @@
     </types>
     <types>
         <members>*</members>
-        <name>AuraDefinitionBundle</name>
+        <members>Product2</members>
+        <name>CustomObject</name>
     </types>
     <types>
         <members>*</members>
