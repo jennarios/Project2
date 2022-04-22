@@ -8,7 +8,7 @@
     <trackHistory>false</trackHistory>
     <type>Picklist</type>
     <valueSet>
-        <controllingField>Family</controllingField>
+        <controllingField>Family__c</controllingField>
         <restricted>true</restricted>
         <valueSetDefinition>
             <sorted>false</sorted>
@@ -54,28 +54,39 @@
             </value>
         </valueSetDefinition>
         <valueSettings>
+            <controllingFieldValue>Dog</controllingFieldValue>
             <controllingFieldValue>Cat</controllingFieldValue>
             <valueName>Food</valueName>
         </valueSettings>
         <valueSettings>
+            <controllingFieldValue>Dog</controllingFieldValue>
             <controllingFieldValue>Cat</controllingFieldValue>
             <valueName>Treats</valueName>
         </valueSettings>
         <valueSettings>
+            <controllingFieldValue>Dog</controllingFieldValue>
             <controllingFieldValue>Cat</controllingFieldValue>
             <valueName>Toys</valueName>
         </valueSettings>
         <valueSettings>
+            <controllingFieldValue>Dog</controllingFieldValue>
             <controllingFieldValue>Cat</controllingFieldValue>
             <valueName>Beds and Crates</valueName>
         </valueSettings>
         <valueSettings>
+            <controllingFieldValue>Dog</controllingFieldValue>
             <controllingFieldValue>Cat</controllingFieldValue>
             <valueName>Bowls and Feeders</valueName>
         </valueSettings>
         <valueSettings>
+            <controllingFieldValue>Dog</controllingFieldValue>
             <controllingFieldValue>Cat</controllingFieldValue>
             <valueName>Grooming</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dog</controllingFieldValue>
+            <controllingFieldValue>Cat</controllingFieldValue>
+            <valueName>Leashes Collars Harnesses</valueName>
         </valueSettings>
         <valueSettings>
             <controllingFieldValue>Cat</controllingFieldValue>
