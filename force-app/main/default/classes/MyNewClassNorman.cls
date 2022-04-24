@@ -1,6 +1,5 @@
-public with sharing class MyNewClassNorman {
+public class MyNewClassNorman {
     public MyNewClassNorman() {
-        "hello, what up?"
-        "NOTHING IS WORKING!"
+        System.debug('NOTHING IS WORKING!');
     }
 }
