@@ -41,9 +41,5 @@
         <members>Pet_Store__c</members>
         <name>CustomTab</name>
     </types>
-        <types>
-        <members>Pet_Store_Roster__c</members>
-        <name>CustomTab</name>
-    </types>
     <version>54.0</version>
 </Package>
