@@ -1,6 +1,13 @@
-public with sharing class MyNewClassNorman {
+/*
+Created by: Norman Breuer
+Last Updated: 4/24/2022
+Description: Test class
+*/
+
+public class MyNewClassNorman {
     public MyNewClassNorman() {
-        "hello, what up?"
-        "NOTHING IS WORKING!"
+        System.debug('NOTHING IS WORKING!');
     }
 }
+
+
