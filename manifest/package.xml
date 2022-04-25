@@ -38,11 +38,7 @@
         <members>*</members>
         <name>BrandingSet</name>
     </types>
-     <types>
-        <members>*</members>
-        <name>LightningExperianceTheme</name>
-    </types>
-     <types>
+    <types>
         <members>*</members>
         <name>CustomTab</name>
     </types>
