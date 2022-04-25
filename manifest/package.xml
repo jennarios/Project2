@@ -42,10 +42,6 @@
         <members>*</members>
         <name>CustomTab</name>
     </types>
-     <types>
-        <members>AppSwitcher</members>
-        <name>AppMenu</name>
-    </types>
     <types>
         <members>*</members>
         <name>StaticResource</name>
