@@ -43,7 +43,7 @@
         <name>CustomTab</name>
     </types>
      <types>
-        <members>*</members>
+        <members>AppSwitcher</members>
         <name>AppMenu</name>
     </types>
     <types>
