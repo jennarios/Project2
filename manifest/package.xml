@@ -62,5 +62,13 @@
         <members>Pet_Store__c</members>
         <name>CustomTab</name>
     </types>
+    <types>
+        <members>*</members>
+        <name>CustomObject</name>
+    </types>
+   <types>
+        <members>*</members>
+        <name>Profile</name>
+    </types>
     <version>54.0</version>
 </Package>
