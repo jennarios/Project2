@@ -34,15 +34,15 @@
         <name>StaticResource</name>
     </types>
       <types>
-        <members>PetInventory_c</members>
+        <members>Pet_Inventory__c</members>
         <name>CustomTab</name>
     </types>
        <types>
-        <members>Pet_Store_c</members>
+        <members>Pet_Store__c</members>
         <name>CustomTab</name>
     </types>
         <types>
-        <members>Pet_Store_Roster_c</members>
+        <members>Pet_Store_Roster__c</members>
         <name>CustomTab</name>
     </types>
     <version>54.0</version>
