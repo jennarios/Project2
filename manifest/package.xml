@@ -31,6 +31,27 @@
     </types>
     <types>
         <members>*</members>
+        <members>TuMascotaHomepage</members>
+        <name>FlexiPage</name>
+    </types>
+ <types>
+        <members>*</members>
+        <name>BrandingSet</name>
+    </types>
+     <types>
+        <members>*</members>
+        <name>LightningExperianceTheme</name>
+    </types>
+     <types>
+        <members>*</members>
+        <name>CustomTab</name>
+    </types>
+     <types>
+        <members>*</members>
+        <name>AppMenu</name>
+    </types>
+    <types>
+        <members>*</members>
         <name>StaticResource</name>
     </types>
       <types>
