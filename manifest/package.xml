@@ -47,19 +47,28 @@
         <name>StaticResource</name>
     </types>
       <types>
+        <members>*</members>
         <members>Pet_Inventory__c</members>
         <name>CustomTab</name>
     </types>
        <types>
+        <members>*</members>
         <members>Pet_Store__c</members>
         <name>CustomTab</name>
     </types>
       <types>
+        <members>*</members>
         <members>Pet_Store__c</members>
         <name>Layout</name>
     </types>
-     <types>
+    <types>
+        <members>*</members>
         <members>Pet_Inventory__c</members>
+        <name>Layout</name>
+    </types>
+     <types>
+        <members>*</members>
+        <members>pet_store_Roster__c</members>
         <name>Layout</name>
     </types>
     <version>54.0</version>
