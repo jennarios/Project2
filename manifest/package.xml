@@ -57,7 +57,5 @@
         <members>Pet_Store__c</members>
         <name>CustomTab</name>
     </types>
-
-
     <version>54.0</version>
 </Package>
