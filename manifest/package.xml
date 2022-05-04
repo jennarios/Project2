@@ -76,11 +76,6 @@
     </types>
     <types>
         <members>*</members>
-        <members>AppSwitcher</members>
-        <name>AppMenu</name>
-    </types>
-    <types>
-        <members>*</members>
         <members>Tu_Mascota</members>
         <name>CustomApplication</name>
     </types>
