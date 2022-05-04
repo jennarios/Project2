@@ -40,6 +40,7 @@
     </types>
     <types>
         <members>*</members>
+        <members>TuMascotaHomePage</members>
         <name>CustomTab</name>
     </types>
     <types>
@@ -56,7 +57,11 @@
         <members>Pet_Store__c</members>
         <name>CustomTab</name>
     </types>
-
-
+<<<<<<< HEAD
+   <types>
+        <name>Profile</name>
+    </types>
+=======
+>>>>>>> facf5d030fe3e0627a1584af3fbaccd62c032acd
     <version>54.0</version>
 </Package>
