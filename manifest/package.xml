@@ -106,13 +106,12 @@
         <types>
         <members>*</members>
         <members>ProductCategory__c</members>
-        <name>StandardValueSet</name>
+        <name>CustomField</name>
     </types>
-        </types>
-        <types>
+    <types>
         <members>*</members>
         <members>Family__c</members>
-        <name>StandardValueSet</name>
+        <name>CustomField</name>
     </types>
     <types>
         <name>Profile</name>
