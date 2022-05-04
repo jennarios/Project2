@@ -31,16 +31,68 @@
     </types>
     <types>
         <members>*</members>
-        <members>TuMascotaHomepage</members>
+        <members>Tu_Mascota_Home_Page</members>
         <name>FlexiPage</name>
     </types>
     <types>
         <members>*</members>
-        <name>BrandingSet</name>
+        <members>Tu_Mascota</members>
+        <name>FlexiPage</name>
     </types>
     <types>
         <members>*</members>
-        <members>TuMascotaHomePage</members>
+        <members>Tu_Mascota_UtilityBar</members>
+        <name>FlexiPage</name>
+    </types>
+    <types>
+        <members>*</members>
+        <members>Tu_Mascota_UtilityBar1</members>
+        <name>FlexiPage</name>
+    </types>
+    <types>
+        <members>*</members>
+        <members>tu_mascota</members>
+        <name>ContentAsset</name>
+    </types>
+    <types>
+        <members>*</members>
+        <members>tu_mascota1</members>
+        <name>ContentAsset</name>
+    </types>
+    <types>
+        <members>*</members>
+        <members>tu_mascota2</members>
+        <name>ContentAsset</name>
+    </types>
+    <types>
+        <members>*</members>
+        <members>TuMascota</members>
+        <name>LightningExperienceTheme</name>
+    </types>
+    <types>
+        <members>*</members>
+        <members>LEXTHEMINGTuMascota</members>
+        <name>brandingSet</name>
+    </types>
+    <types>
+        <members>*</members>
+        <members>AppSwitcher</members>
+        <name>AppMenu</name>
+    </types>
+    <types>
+        <members>*</members>
+        <members>Tu_Mascota</members>
+        <name>CustomApplication</name>
+    </types>
+
+    <types>
+        <members>*</members>
+        <members>Tu_Mascota_Home_Page</members>
+        <name>CustomTab</name>
+    </types>
+     <types>
+        <members>*</members>
+        <members>Tu_Mascota</members>
         <name>CustomTab</name>
     </types>
     <types>
@@ -57,22 +109,7 @@
         <members>Pet_Store__c</members>
         <name>CustomTab</name>
     </types>
-        <types>
-        <members>*</members>
-        <members>ProductCategory__c</members>
-        <name>StandardValueSet</name>
-    </types>
-        </types>
-        <types>
-        <members>*</members>
-        <members>Family__c</members>
-        <name>StandardValueSet</name>
-    </types>
-<<<<<<< HEAD
-   <types>
-        <name>Profile</name>
-    </types>
-=======
->>>>>>> facf5d030fe3e0627a1584af3fbaccd62c032acd
+
+
     <version>54.0</version>
 </Package>
