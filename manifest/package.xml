@@ -34,7 +34,7 @@
         <members>TuMascotaHomepage</members>
         <name>FlexiPage</name>
     </types>
- <types>
+    <types>
         <members>*</members>
         <name>BrandingSet</name>
     </types>
