@@ -72,8 +72,14 @@
     <types>
         <members>*</members>
         <members>LEXTHEMINGTuMascota</members>
+<<<<<<< HEAD
         <name>BrandingSet</name>
     </types>
+=======
+        <name>brandingSet</name>
+    </types>
+    
+>>>>>>> 8d992107794850331447284fce1e8752f554e4a6
     <types>
         <members>*</members>
         <members>Tu_Mascota</members>
@@ -103,6 +109,7 @@
         <members>Pet_Store__c</members>
         <name>CustomTab</name>
     </types>
+<<<<<<< HEAD
         <types>
         <members>*</members>
         <members>ProductCategory__c</members>
@@ -121,5 +128,12 @@
     <types>
         <name>Profile</name>
     </types>
+=======
+    <types>
+        <members>*</members>
+        <name>flows</name>
+    </types>
+
+>>>>>>> 8d992107794850331447284fce1e8752f554e4a6
     <version>54.0</version>
 </Package>
