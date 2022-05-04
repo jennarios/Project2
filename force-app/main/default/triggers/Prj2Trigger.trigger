@@ -11,7 +11,7 @@ trigger Prj2Trigger on Account (before insert, before update, before delete, aft
       
       switch on trigger.operationType {
           when BEFORE_INSERT { 
-              TriggerHandler.ValidateAccounts(trigger.new);
+              
           }
           when BEFORE_UPDATE {
               
@@ -19,7 +19,7 @@ trigger Prj2Trigger on Account (before insert, before update, before delete, aft
           when BEFORE_DELETE { 
           }
           when AFTER_INSERT { 
-            TriggerHandler.ChangeContacts(trigger.new);
+            
           }
           when AFTER_UPDATE { 
           }
