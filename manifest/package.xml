@@ -71,15 +71,7 @@
     </types>
     <types>
         <members>*</members>
-        <members>LEXTHEMINGTuMascota</members>
-<<<<<<< HEAD
         <name>BrandingSet</name>
-    </types>
-=======
-        <name>brandingSet</name>
-    </types>
-    
->>>>>>> 8d992107794850331447284fce1e8752f554e4a6
     <types>
         <members>*</members>
         <members>Tu_Mascota</members>
@@ -99,18 +91,17 @@
         <members>*</members>
         <name>StaticResource</name>
     </types>
-      <types>
+    <types>
         <members>*</members>
         <members>Pet_Inventory__c</members>
         <name>CustomTab</name>
     </types>
-       <types>
+    <types>
         <members>*</members>
         <members>Pet_Store__c</members>
         <name>CustomTab</name>
     </types>
-<<<<<<< HEAD
-        <types>
+    <types>
         <members>*</members>
         <members>ProductCategory__c</members>
         <name>CustomField</name>
@@ -120,20 +111,9 @@
         <members>Family__c</members>
         <name>CustomField</name>
     </types>
-    </types>
-       <types>
-        <members>Send_Email_to_Account_Owner</members>
-        <name>Flow</name>
-    </types>
-    <types>
-        <name>Profile</name>
-    </types>
-=======
     <types>
         <members>*</members>
         <name>Flow</name>
     </types>
-
->>>>>>> 8d992107794850331447284fce1e8752f554e4a6
     <version>54.0</version>
 </Package>
