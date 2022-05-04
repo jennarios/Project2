@@ -74,11 +74,7 @@
         <members>LEXTHEMINGTuMascota</members>
         <name>brandingSet</name>
     </types>
-    <types>
-        <members>*</members>
-        <members>AppSwitcher</members>
-        <name>AppMenu</name>
-    </types>
+    
     <types>
         <members>*</members>
         <members>Tu_Mascota</members>
