@@ -34,7 +34,7 @@
         <members>TuMascotaHomepage</members>
         <name>FlexiPage</name>
     </types>
- <types>
+    <types>
         <members>*</members>
         <name>BrandingSet</name>
     </types>
@@ -56,6 +56,17 @@
         <members>*</members>
         <members>Pet_Store__c</members>
         <name>CustomTab</name>
+    </types>
+        <types>
+        <members>*</members>
+        <members>ProductCategory__c</members>
+        <name>CustomValue</name>
+    </types>
+        </types>
+        <types>
+        <members>*</members>
+        <members>Family__c</members>
+        <name>CustomValue</name>
     </types>
 <<<<<<< HEAD
    <types>
