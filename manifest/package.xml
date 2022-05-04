@@ -103,7 +103,18 @@
         <members>Pet_Store__c</members>
         <name>CustomTab</name>
     </types>
-
-
+        <types>
+        <members>*</members>
+        <members>ProductCategory__c</members>
+        <name>CustomField</name>
+    </types>
+    <types>
+        <members>*</members>
+        <members>Family__c</members>
+        <name>CustomField</name>
+    </types>
+    <types>
+        <name>Profile</name>
+    </types>
     <version>54.0</version>
 </Package>
