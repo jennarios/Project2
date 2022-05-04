@@ -105,7 +105,10 @@
         <members>Pet_Store__c</members>
         <name>CustomTab</name>
     </types>
-
+    <types>
+        <members>*</members>
+        <name>flows</name>
+    </types>
 
     <version>54.0</version>
 </Package>
