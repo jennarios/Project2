@@ -3,7 +3,11 @@
     <applicationVisibilities>
         <application>Tu_Mascota</application>
         <default>false</default>
+<<<<<<< HEAD
+        <visible>true</visible>
+=======
         <visible>false</visible>
+>>>>>>> 8d992107794850331447284fce1e8752f554e4a6
     </applicationVisibilities>
     <applicationVisibilities>
         <application>standard__LightningSales</application>
@@ -18,6 +22,13 @@
         <apexClass>TriggerHandler</apexClass>
         <enabled>true</enabled>
     </classAccesses>
+<<<<<<< HEAD
+    <classAccesses>
+        <apexClass>test</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+=======
+>>>>>>> 8d992107794850331447284fce1e8752f554e4a6
     <custom>false</custom>
     <fieldPermissions>
         <editable>false</editable>
@@ -79,6 +90,33 @@
         <field>Product2.StockKeepingUnit</field>
         <readable>true</readable>
     </fieldPermissions>
+<<<<<<< HEAD
+    <layoutAssignments>
+        <layout>New_Custom_tab__c-New Custom tab Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Pet_Inventory__c-Pet Inventory Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Pet_Store_Roster__c-Pet Store Roster Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Pet_Store__c-Pet Store Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Product2-Product Layout</layout>
+    </layoutAssignments>
+=======
+>>>>>>> 8d992107794850331447284fce1e8752f554e4a6
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>New_Custom_tab__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
     <objectPermissions>
         <allowCreate>true</allowCreate>
         <allowDelete>true</allowDelete>
@@ -125,7 +163,11 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>Tu_Mascota</tab>
+<<<<<<< HEAD
+        <visibility>DefaultOn</visibility>
+=======
         <visibility>Hidden</visibility>
+>>>>>>> 8d992107794850331447284fce1e8752f554e4a6
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-Product2</tab>
