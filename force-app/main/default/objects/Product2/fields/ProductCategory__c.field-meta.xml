@@ -8,7 +8,7 @@
     <trackHistory>false</trackHistory>
     <type>Picklist</type>
     <valueSet>
-        <controllingField>Family</controllingField>
+        <controllingField>Family__c</controllingField>
         <restricted>true</restricted>
         <valueSetDefinition>
             <sorted>false</sorted>
@@ -82,6 +82,11 @@
             <controllingFieldValue>Dog</controllingFieldValue>
             <controllingFieldValue>Cat</controllingFieldValue>
             <valueName>Grooming</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dog</controllingFieldValue>
+            <controllingFieldValue>Cat</controllingFieldValue>
+            <valueName>Leashes Collars Harnesses</valueName>
         </valueSettings>
         <valueSettings>
             <controllingFieldValue>Cat</controllingFieldValue>

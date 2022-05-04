@@ -31,7 +31,84 @@
     </types>
     <types>
         <members>*</members>
+        <members>Tu_Mascota_Home_Page</members>
+        <name>FlexiPage</name>
+    </types>
+    <types>
+        <members>*</members>
+        <members>Tu_Mascota</members>
+        <name>FlexiPage</name>
+    </types>
+    <types>
+        <members>*</members>
+        <members>Tu_Mascota_UtilityBar</members>
+        <name>FlexiPage</name>
+    </types>
+    <types>
+        <members>*</members>
+        <members>Tu_Mascota_UtilityBar1</members>
+        <name>FlexiPage</name>
+    </types>
+    <types>
+        <members>*</members>
+        <members>tu_mascota</members>
+        <name>ContentAsset</name>
+    </types>
+    <types>
+        <members>*</members>
+        <members>tu_mascota1</members>
+        <name>ContentAsset</name>
+    </types>
+    <types>
+        <members>*</members>
+        <members>tu_mascota2</members>
+        <name>ContentAsset</name>
+    </types>
+    <types>
+        <members>*</members>
+        <members>TuMascota</members>
+        <name>LightningExperienceTheme</name>
+    </types>
+    <types>
+        <members>*</members>
+        <members>LEXTHEMINGTuMascota</members>
+        <name>brandingSet</name>
+    </types>
+    
+    <types>
+        <members>*</members>
+        <members>Tu_Mascota</members>
+        <name>CustomApplication</name>
+    </types>
+
+    <types>
+        <members>*</members>
+        <members>Tu_Mascota_Home_Page</members>
+        <name>CustomTab</name>
+    </types>
+     <types>
+        <members>*</members>
+        <members>Tu_Mascota</members>
+        <name>CustomTab</name>
+    </types>
+    <types>
+        <members>*</members>
         <name>StaticResource</name>
     </types>
+      <types>
+        <members>*</members>
+        <members>Pet_Inventory__c</members>
+        <name>CustomTab</name>
+    </types>
+       <types>
+        <members>*</members>
+        <members>Pet_Store__c</members>
+        <name>CustomTab</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>flows</name>
+    </types>
+
     <version>54.0</version>
 </Package>
