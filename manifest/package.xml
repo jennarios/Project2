@@ -60,13 +60,13 @@
         <types>
         <members>*</members>
         <members>ProductCategory__c</members>
-        <name>CustomValue</name>
+        <name>StandardValueSet</name>
     </types>
         </types>
         <types>
         <members>*</members>
         <members>Family__c</members>
-        <name>CustomValue</name>
+        <name>StandardValueSet</name>
     </types>
 <<<<<<< HEAD
    <types>
