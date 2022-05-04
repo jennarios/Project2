@@ -83,10 +83,13 @@
         <apexClass>TriggerHandler</apexClass>
         <enabled>true</enabled>
     </classAccesses>
+<<<<<<< HEAD
     <classAccesses>
         <apexClass>test</apexClass>
         <enabled>true</enabled>
     </classAccesses>
+=======
+>>>>>>> 8d992107794850331447284fce1e8752f554e4a6
     <custom>false</custom>
     <fieldPermissions>
         <editable>false</editable>
@@ -119,9 +122,9 @@
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Product2.Family__c</field>
-        <readable>true</readable>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
@@ -129,9 +132,9 @@
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Product2.ProductCategory__c</field>
-        <readable>true</readable>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
@@ -148,9 +151,6 @@
         <field>Product2.StockKeepingUnit</field>
         <readable>true</readable>
     </fieldPermissions>
-    <layoutAssignments>
-        <layout>Product2-Product Layout</layout>
-    </layoutAssignments>
     <objectPermissions>
         <allowCreate>true</allowCreate>
         <allowDelete>true</allowDelete>
@@ -206,7 +206,11 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>Tu_Mascota</tab>
+<<<<<<< HEAD
         <visibility>DefaultOn</visibility>
+=======
+        <visibility>Hidden</visibility>
+>>>>>>> 8d992107794850331447284fce1e8752f554e4a6
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-Product2</tab>
