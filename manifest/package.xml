@@ -71,9 +71,7 @@
     </types>
     <types>
         <members>*</members>
-        <members>LEXTHEMINGTuMascota</members>
         <name>BrandingSet</name>
-    </types>
     <types>
         <members>*</members>
         <members>Tu_Mascota</members>
@@ -93,17 +91,17 @@
         <members>*</members>
         <name>StaticResource</name>
     </types>
-      <types>
+    <types>
         <members>*</members>
         <members>Pet_Inventory__c</members>
         <name>CustomTab</name>
     </types>
-       <types>
+    <types>
         <members>*</members>
         <members>Pet_Store__c</members>
         <name>CustomTab</name>
     </types>
-        <types>
+    <types>
         <members>*</members>
         <members>ProductCategory__c</members>
         <name>CustomField</name>
@@ -114,7 +112,8 @@
         <name>CustomField</name>
     </types>
     <types>
-        <name>Profile</name>
+        <members>*</members>
+        <name>Flow</name>
     </types>
     <version>54.0</version>
 </Package>
