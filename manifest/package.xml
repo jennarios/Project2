@@ -117,5 +117,8 @@
     <types>
         <name>Profile</name>
     </types>
+    <types>
+        <name>Profile</name>
+    </types>
     <version>54.0</version>
 </Package>

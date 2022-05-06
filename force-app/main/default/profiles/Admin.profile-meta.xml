@@ -114,9 +114,9 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
+        <editable>true</editable>
         <field>Product2.Family</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
@@ -218,6 +218,7 @@
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <tabVisibilities>
+<<<<<<< HEAD
         <tab>Pet_Inventory__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
@@ -230,6 +231,9 @@
 <<<<<<< HEAD
         <visibility>DefaultOn</visibility>
 =======
+=======
+        <tab>standard-Product2</tab>
+>>>>>>> 4cddac5ce668ebfe517ecaf600b68ee563c0dff9
         <visibility>DefaultOn</visibility>
         <enabled>true</enabled>
         <name>AIViewInsightObjects</name>

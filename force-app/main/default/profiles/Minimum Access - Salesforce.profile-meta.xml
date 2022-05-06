@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Profile xmlns="http://soap.sforce.com/2006/04/metadata">
+<<<<<<< HEAD
     <applicationVisibilities>
         <application>Tu_Mascota</application>
         <default>false</default>
@@ -75,6 +76,8 @@
         <default>false</default>
         <visible>true</visible>
     </applicationVisibilities>
+=======
+>>>>>>> 4cddac5ce668ebfe517ecaf600b68ee563c0dff9
     <classAccesses>
         <apexClass>MyFirstClass</apexClass>
         <enabled>false</enabled>
@@ -119,9 +122,9 @@
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Product2.Family__c</field>
-        <readable>true</readable>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
@@ -129,9 +132,9 @@
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Product2.ProductCategory__c</field>
-        <readable>true</readable>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
@@ -148,18 +151,6 @@
         <field>Product2.StockKeepingUnit</field>
         <readable>false</readable>
     </fieldPermissions>
-    <tabVisibilities>
-        <tab>Pet_Inventory__c</tab>
-        <visibility>Hidden</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>Pet_Store__c</tab>
-        <visibility>Hidden</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>Tu_Mascota</tab>
-        <visibility>Hidden</visibility>
-    </tabVisibilities>
     <tabVisibilities>
         <tab>standard-Product2</tab>
         <visibility>Hidden</visibility>
