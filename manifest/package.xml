@@ -114,6 +114,10 @@
         <name>CustomField</name>
     </types>
     <types>
+        <members>*</members>
+        <name>Flow</name>
+    </types>
+    <types>
         <name>Profile</name>
     </types>
     <version>54.0</version>
