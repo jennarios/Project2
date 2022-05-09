@@ -12,7 +12,7 @@
         <headerColor>#0070D2</headerColor>
         <logo>tu_mascota</logo>
         <logoVersion>1</logoVersion>
-        <shouldOverrideOrgTheme>false</shouldOverrideOrgTheme>
+        <shouldOverrideOrgTheme>true</shouldOverrideOrgTheme>
     </brand>
     <description>a pet store for YOUR pet</description>
     <formFactors>Small</formFactors>
