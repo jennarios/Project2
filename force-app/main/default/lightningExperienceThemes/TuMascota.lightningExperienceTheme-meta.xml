@@ -2,5 +2,5 @@
 <LightningExperienceTheme xmlns="http://soap.sforce.com/2006/04/metadata">
     <defaultBrandingSet>LEXTHEMINGTuMascota</defaultBrandingSet>
     <masterLabel>Tu Mascota</masterLabel>
-    <shouldOverrideLoadingImage>true</shouldOverrideLoadingImage>
+    <shouldOverrideLoadingImage>false</shouldOverrideLoadingImage>
 </LightningExperienceTheme>
