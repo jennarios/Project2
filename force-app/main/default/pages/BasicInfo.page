@@ -5,8 +5,8 @@
 -->
 
 <apex:page standardController="Contact">
-      <apex:pageBlock  title="Contact Information">
-            <apex:pageBlockSection>
+      <apex:pageBlock title="Contact Information">
+            <apex:pageBlockSection >
                   First Name : {! Contact.FirstName}<br/>
                   Last  Name : {! Contact.LastName}<br/>
                   Email      : {! Contact.Email}<br/>
