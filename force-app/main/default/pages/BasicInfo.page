@@ -1,0 +1,16 @@
+<!--
+      Created By  : Mustafa Rasouli
+      Last Updated: 12 May 2022
+      Description : Display basic Information of a record  
+-->
+
+<apex:page standardController="Contact">
+      <apex:pageBlock  title="Contact Information">
+            <apex:pageBlockSection>
+                  First Name : {! Contact.FirstName}<br/>
+                  Last  Name : {! Contact.LastName}<br/>
+                  Email      : {! Contact.Email}<br/>
+            </apex:pageBlockSection>
+
+      </apex:pageBlock>
+</apex:page>
