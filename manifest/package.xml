@@ -120,5 +120,9 @@
     <types>
         <name>Profile</name>
     </types>
+    <types>
+        <members>*</members>
+        <name>Workflow</name>
+    </types>
     <version>54.0</version>
 </Package>
