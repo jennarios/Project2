@@ -7,7 +7,6 @@ public class AccountControllerExtension {
        public List<Opportunity> getChildOpps() {
         return [Select Name, Amount, CloseDate, StageName
         From Opportunity
-        Where AccountId =:acct.Id
-        and (IsWon = true or IsClosed = false)];
+        WHERE (IsWon = true or IsClosed = false)];
      }
 }

@@ -5,7 +5,7 @@
 -->
 
 <apex:page controller="CustomController" tabstyle="Account">
-    <apex:form>
+    <apex:form >
         <apex:pageBlock title="Contacts List   {!$User.FirstName}" id="contacts_list" >
          	<apex:pageBlockTable value="{!contacts }" var="ct">
                 <apex:column value="{!ct.FirstName }"/>
@@ -15,8 +15,8 @@
             </apex:pageBlockTable>
            
             <apex:pageBlock mode="edit">
-                <apex:pageMessages/>
-                    <apex:pageBlockSection>
+                <apex:pageMessages />
+                    <apex:pageBlockSection >
                         <apex:inputField value="{!account.name}"/>
                         <apex:inputField value="{!account.phone}"/>
                         <apex:inputField value="{!account.industry}"/>
