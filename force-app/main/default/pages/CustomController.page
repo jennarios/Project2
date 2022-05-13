@@ -1,0 +1,30 @@
+<!--
+      Created By: Mustafa Rasouli
+      Last Updated: 13 May 2022
+      Description: To display record and save
+-->
+
+<apex:page controller="CustomController" tabstyle="Account">
+    <apex:form>
+        <apex:pageBlock title="Contacts List   {!$User.FirstName}" id="contacts_list" >
+         	<apex:pageBlockTable value="{!contacts }" var="ct">
+                <apex:column value="{!ct.FirstName }"/>
+                <apex:column value="{!ct.LastName }"/>
+                <apex:column value="{!ct.Title }"/>
+                <apex:column value="{!ct.Email }"/> 
+            </apex:pageBlockTable>
+           
+            <apex:pageBlock mode="edit">
+                <apex:pageMessages/>
+                    <apex:pageBlockSection>
+                        <apex:inputField value="{!account.name}"/>
+                        <apex:inputField value="{!account.phone}"/>
+                        <apex:inputField value="{!account.industry}"/>
+                    </apex:pageBlockSection>
+                    <apex:pageBlockButtons location="bottom">
+                        <apex:commandButton value="Save" action="{!save}"/>
+                    </apex:pageBlockButtons>
+        	</apex:pageBlock>    
+        </apex:pageBlock>
+    </apex:form>             
+</apex:page>
