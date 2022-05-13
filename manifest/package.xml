@@ -119,7 +119,7 @@
     </types>
     <types>
         <members>*</members>
-        <name>flows</name>
+        <name>Flow</name>
     </types>
     <types>
         <members>*</members>
