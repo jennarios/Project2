@@ -7,8 +7,8 @@
 <apex:page controller="CustomController" tabstyle="Account">
     <apex:form>
             <apex:pageBlock mode="edit">
-                <apex:pageMessages/>
-                    <apex:pageBlockSection>
+                <apex:pageMessages />
+                    <apex:pageBlockSection >
                         <apex:inputField value="{!account.name}"/>
                         <apex:inputField value="{!account.phone}"/>
                         <apex:inputField value="{!account.industry}"/>
