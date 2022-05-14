@@ -1,21 +1,20 @@
 /*
-      Created By: Mustafa Rasouli
-      Lasted Updated: 03 May 2022
-      Description: Triggers for prj2
+      Created By: Norman Breuer
+      Lasted Updated: 05 May 2022
+      Description: Trigger for Project Two
 */
 
-
-trigger Prj2Trigger on Account (before insert, before update, before delete, after insert, after update, after delete, after undelete) {
+trigger PreventDuplicateContact on Contact (before insert, before update, before delete, after insert, after update, after delete, after undelete) {
       
       switch on trigger.operationType {
           when BEFORE_INSERT { 
-              
+              PreventDuplicateContactHandler.preventDupCon(Trigger.new);
           }
           when BEFORE_UPDATE {
               
           }
           when BEFORE_DELETE { 
-              DeletingAccountHandler.preventAccDel(Trigger.old);
+              
           }
           when AFTER_INSERT { 
             
@@ -23,7 +22,7 @@ trigger Prj2Trigger on Account (before insert, before update, before delete, aft
           when AFTER_UPDATE {
 
           }
-          when AFTER_DELETE {
+          when AFTER_DELETE { 
 
           }
           when AFTER_UNDELETE {
