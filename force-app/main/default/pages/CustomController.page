@@ -1,19 +1,11 @@
 <!--
       Created By: Mustafa Rasouli
       Last Updated: 13 May 2022
-      Description: To display record and save
+      Description: Allow a user to create contacts
 -->
 
 <apex:page controller="CustomController" tabstyle="Account">
-    <apex:form >
-        <apex:pageBlock title="Contacts List   {!$User.FirstName}" id="contacts_list" >
-         	<apex:pageBlockTable value="{!contacts }" var="ct">
-                <apex:column value="{!ct.FirstName }"/>
-                <apex:column value="{!ct.LastName }"/>
-                <apex:column value="{!ct.Title }"/>
-                <apex:column value="{!ct.Email }"/> 
-            </apex:pageBlockTable>
-           
+    <apex:form>
             <apex:pageBlock mode="edit">
                 <apex:pageMessages />
                     <apex:pageBlockSection >
