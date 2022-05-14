@@ -126,6 +126,7 @@
         <name>Workflow</name>
     </types>
     <types>
+        <members>*</members>
         <members>PublicReports/Sales_of_Cat_vs_Dog_Products_CBC</members>
         <members>PublicReports/Closed_Opportunities_48g</members>
         <name>Report</name>
