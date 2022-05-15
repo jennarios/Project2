@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PathAssistant xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <entityName>Case</entityName>
+    <fieldName>Status</fieldName>
+    <masterLabel>Case Path</masterLabel>
+    <pathAssistantSteps>
+        <fieldNames>AccountId</fieldNames>
+        <fieldNames>CaseNumber</fieldNames>
+        <fieldNames>ClosedDate</fieldNames>
+        <fieldNames>Comments</fieldNames>
+        <fieldNames>Reason</fieldNames>
+        <info>&lt;p&gt;Make sure customer issue has been resolved. &lt;/p&gt;</info>
+        <picklistValueName>Closed</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>CaseNumber</fieldNames>
+        <fieldNames>Reason</fieldNames>
+        <fieldNames>OwnerId</fieldNames>
+        <fieldNames>CreatedDate</fieldNames>
+        <fieldNames>IsEscalated</fieldNames>
+        <info>&lt;p&gt;Carefully read through case history to know why case has been escalated. &lt;/p&gt;&lt;p&gt;Address customer issue in a calm, professional manner. &lt;/p&gt;&lt;p&gt;Offer customer discount coupon if needed. &lt;/p&gt;</info>
+        <picklistValueName>Escalated</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>AccountId</fieldNames>
+        <fieldNames>CaseNumber</fieldNames>
+        <fieldNames>Reason</fieldNames>
+        <fieldNames>ContactEmail</fieldNames>
+        <fieldNames>ContactMobile</fieldNames>
+        <info>&lt;p&gt;Get detailed information from customer. &lt;/p&gt;&lt;p&gt;Make sure we have customer contact information. &lt;/p&gt;&lt;p&gt;Assure customer we will work on case immediately and will get back to them in a timely manner. &lt;/p&gt;</info>
+        <picklistValueName>New</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>CaseNumber</fieldNames>
+        <fieldNames>OwnerId</fieldNames>
+        <fieldNames>Description</fieldNames>
+        <fieldNames>Priority</fieldNames>
+        <fieldNames>Comments</fieldNames>
+        <info>&lt;p&gt;Read through case history before contacting customer. &lt;/p&gt;&lt;p&gt;Assure customer we are working on their case diligently and will get back to them in a timely manner. &lt;/p&gt;</info>
+        <picklistValueName>Working</picklistValueName>
+    </pathAssistantSteps>
+    <recordTypeName>__MASTER__</recordTypeName>
+</PathAssistant>
