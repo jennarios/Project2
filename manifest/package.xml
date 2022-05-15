@@ -124,6 +124,11 @@
         <name>GlobalValueSet</name>
     </types>
     <types>
+        <members>*</members>
+        <members>Survey_Event__e</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
         <name>Profile</name>
     </types>
     <types>
