@@ -121,7 +121,7 @@
     <types>
         <members>*</members>
         <members>Pet__c</members>
-        <name>CustomField</name>
+        <name>StandardValueSet</name>
     </types>
     <types>
         <name>Profile</name>
