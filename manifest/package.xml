@@ -85,9 +85,24 @@
         <members>Tu_Mascota_Home_Page</members>
         <name>CustomTab</name>
     </types>
-     <types>
+    <types>
         <members>*</members>
         <members>Tu_Mascota</members>
+        <name>CustomTab</name>
+    </types>
+    <types>
+        <members>*</members>
+        <members>Pet_Inventory</members>
+        <name>CustomTab</name>
+    </types>
+    <types>
+        <members>*</members>
+        <members>Contacts</members>
+        <name>CustomTab</name>
+    </types>
+    <types>
+        <members>*</members>
+        <members>Pages</members>
         <name>CustomTab</name>
     </types>
     <types>
