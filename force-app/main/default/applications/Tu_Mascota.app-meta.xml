@@ -30,6 +30,7 @@
     <tabs>standard-Dashboard</tabs>
     <tabs>Pet_Inventory__c</tabs>
     <tabs>standard-Opportunity</tabs>
+    <tabs>standard-Contact</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>Tu_Mascota_UtilityBar</utilityBar>
 </CustomApplication>
