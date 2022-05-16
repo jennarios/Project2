@@ -28,7 +28,6 @@
     <tabs>Contacts</tabs>
     <tabs>standard-Customer</tabs>
     <tabs>standard-Dashboard</tabs>
-    <tabs>Pet_Inventory__c</tabs>
     <tabs>standard-Opportunity</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>Tu_Mascota_UtilityBar</utilityBar>
