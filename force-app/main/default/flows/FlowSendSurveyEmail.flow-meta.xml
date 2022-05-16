@@ -33,7 +33,7 @@
             </value>
         </inputParameters>
     </actionCalls>
-    <apiVersion>54.0</apiVersion>
+    <apiVersion>55.0</apiVersion>
     <interviewLabel>FlowSendSurveyEmail {!$Flow.CurrentDateTime}</interviewLabel>
     <label>FlowSendSurveyEmail</label>
     <processMetadataValues>
