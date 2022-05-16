@@ -1,3 +1,9 @@
+/*
+    Created by: Norman Breuer
+    Last Updated: May 15 2022
+    Description: Trigger to prevent duplicate contact 
+*/
+
 trigger PreventContactDuplicate on Contact (before insert) {
 
     //set that will contain email from contact being added
