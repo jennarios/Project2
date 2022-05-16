@@ -5,7 +5,7 @@
 -->
 
 <apex:page controller="CustomController" tabstyle="Account">
-    <apex:form>
+    <apex:form >
         <apex:pageBlock mode="edit">
                 <apex:pageMessages />
                     <apex:pageBlockSection >

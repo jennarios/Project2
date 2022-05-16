@@ -9,10 +9,10 @@
         <pageOrSobjectType>standard-home</pageOrSobjectType>
     </actionOverrides>
     <brand>
-        <headerColor>#0070D2</headerColor>
+        <headerColor>#14051E</headerColor>
         <logo>tu_mascota</logo>
         <logoVersion>1</logoVersion>
-        <shouldOverrideOrgTheme>true</shouldOverrideOrgTheme>
+        <shouldOverrideOrgTheme>false</shouldOverrideOrgTheme>
     </brand>
     <description>a pet store for YOUR pet</description>
     <formFactors>Small</formFactors>
@@ -23,10 +23,14 @@
     <label>Tu Mascota</label>
     <navType>Standard</navType>
     <tabs>standard-home</tabs>
-    <tabs>standard-Contact</tabs>
+    <tabs>Pages</tabs>
+    <tabs>Pet_Inventory</tabs>
+    <tabs>Contacts</tabs>
     <tabs>standard-Customer</tabs>
     <tabs>standard-Dashboard</tabs>
     <tabs>Pet_Inventory__c</tabs>
+    <tabs>standard-Opportunity</tabs>
+    <tabs>standard-Contact</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>Tu_Mascota_UtilityBar</utilityBar>
 </CustomApplication>

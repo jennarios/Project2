@@ -52,6 +52,26 @@
     </types>
     <types>
         <members>*</members>
+        <members>Pages</members>
+        <name>FlexiPage</name>
+    </types>
+    <types>
+        <members>*</members>
+        <members>Pet_Inventory</members>
+        <name>FlexiPage</name>
+    </types>
+    <types>
+        <members>*</members>
+        <members>Contact_Forms</members>
+        <name>FlexiPage</name>
+    </types>
+    <types>
+        <members>*</members>
+        <members>Contacts</members>
+        <name>FlexiPage</name>
+    </types>
+    <types>
+        <members>*</members>
         <members>tu_mascota</members>
         <name>ContentAsset</name>
     </types>
@@ -85,9 +105,29 @@
         <members>Tu_Mascota_Home_Page</members>
         <name>CustomTab</name>
     </types>
-     <types>
+    <types>
         <members>*</members>
         <members>Tu_Mascota</members>
+        <name>CustomTab</name>
+    </types>
+    <types>
+        <members>*</members>
+        <members>Pet_Inventory</members>
+        <name>CustomTab</name>
+    </types>
+    <types>
+        <members>*</members>
+        <members>Contact_Forms</members>
+        <name>CustomTab</name>
+    </types>
+    <types>
+        <members>*</members>
+        <members>Contacts</members>
+        <name>CustomTab</name>
+    </types>
+    <types>
+        <members>*</members>
+        <members>Pages</members>
         <name>CustomTab</name>
     </types>
     <types>
@@ -110,9 +150,23 @@
         <name>CustomField</name>
     </types>
     <types>
+        <members>Survey_Event__e</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
         <members>*</members>
         <members>Family__c</members>
         <name>CustomField</name>
+    </types>
+    <types>
+        <members>*</members>
+        <members>Pet__c</members>
+        <name>GlobalValueSet</name>
+    </types>
+    <types>
+        <members>*</members>
+        <members>Survey_Event__e</members>
+        <name>CustomObject</name>
     </types>
     <types>
         <name>Profile</name>
@@ -126,7 +180,15 @@
         <name>Workflow</name>
     </types>
     <types>
+<<<<<<< HEAD
        <members>*</members>
+=======
+        <members>*</members>
+        <name>PathAssistant</name>
+    </types>
+    <types>
+        <members>*</members>
+>>>>>>> 6e052fcab38435cd9c17e9a8a7870b9da4b0b46c
         <members>PublicReports/Sales_of_Cat_vs_Dog_Products_CBC</members>
         <members>PublicReports/Closed_Opportunities_48g</members>
         <name>Report</name>

@@ -1,0 +1,20 @@
+<apex:page controller="ContactsWithCatsController">
+    <apex:form >    
+        <apex:pageBlock >
+            <apex:outputPanel >
+                <apex:pageBlockTable value="{!Contacts}" var="con">
+                    <apex:column headerValue="Contact Name">
+                        <apex:outputField value="{!con.name}">
+                            <apex:inlineEditSupport />
+                        </apex:outputField>
+                    </apex:column>
+                    <apex:column headervalue="Pet Type">
+                        <apex:outputField value="{!con.Pet__c}">
+                            <apex:inlineEditSupport />
+                        </apex:outputField>
+                    </apex:column>
+                </apex:pageBlockTable>
+            </apex:outputPanel>
+        </apex:pageBlock>
+    </apex:form>
+</apex:page>
