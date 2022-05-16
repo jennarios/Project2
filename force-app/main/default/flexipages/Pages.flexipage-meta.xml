@@ -23,7 +23,32 @@
                 <identifier>flexipage_visualforcePage</identifier>
             </componentInstance>
         </itemInstances>
+<<<<<<< HEAD
         <name>region2</name>
+=======
+        <itemInstances>
+            <componentInstance>
+                <componentInstanceProperties>
+                    <name>height</name>
+                    <value>300</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>label</name>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>pageName</name>
+                    <value>ContactsWithCats</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>showLabel</name>
+                    <value>true</value>
+                </componentInstanceProperties>
+                <componentName>flexipage:visualforcePage</componentName>
+                <identifier>flexipage_visualforcePage1</identifier>
+            </componentInstance>
+        </itemInstances>
+        <name>column1</name>
+>>>>>>> 008ae3404057d26e5859eb78c116c045df4f8a9d
         <type>Region</type>
     </flexiPageRegions>
     <flexiPageRegions>

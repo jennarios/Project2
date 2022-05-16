@@ -122,6 +122,31 @@
             <fieldType>DropdownBox</fieldType>
             <isRequired>false</isRequired>
         </fields>
+<<<<<<< HEAD
+=======
+        <fields>
+            <name>Pet_Type</name>
+            <choiceReferences>PetType</choiceReferences>
+            <dataType>String</dataType>
+            <fieldText>Pet Type</fieldText>
+            <fieldType>DropdownBox</fieldType>
+            <isRequired>true</isRequired>
+        </fields>
+        <fields>
+            <name>Email</name>
+            <extensionName>flowruntime:email</extensionName>
+            <fieldType>ComponentInstance</fieldType>
+            <inputParameters>
+                <name>required</name>
+                <value>
+                    <booleanValue>true</booleanValue>
+                </value>
+            </inputParameters>
+            <inputsOnNextNavToAssocScrn>UseStoredValues</inputsOnNextNavToAssocScrn>
+            <isRequired>true</isRequired>
+            <storeOutputAutomatically>true</storeOutputAutomatically>
+        </fields>
+>>>>>>> 008ae3404057d26e5859eb78c116c045df4f8a9d
         <showFooter>true</showFooter>
         <showHeader>true</showHeader>
     </screens>
