@@ -52,6 +52,21 @@
     </types>
     <types>
         <members>*</members>
+        <members>Pages</members>
+        <name>FlexiPage</name>
+    </types>
+    <types>
+        <members>*</members>
+        <members>Pet_Inventory</members>
+        <name>FlexiPage</name>
+    </types>
+    <types>
+        <members>*</members>
+        <members>Contacts</members>
+        <name>FlexiPage</name>
+    </types>
+    <types>
+        <members>*</members>
         <members>tu_mascota</members>
         <name>ContentAsset</name>
     </types>
