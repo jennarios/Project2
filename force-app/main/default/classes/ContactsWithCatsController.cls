@@ -1,3 +1,9 @@
+/*
+    Created by: Norman Breuer
+    Last Updated: May 15 2022
+    Description: Custom controller for VF page
+*/
+
 public class ContactsWithCatsController {
 
     public List<Contact> Contacts {get; set;}
