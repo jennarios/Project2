@@ -26,7 +26,11 @@
     <tabs>standard-Contact</tabs>
     <tabs>standard-Customer</tabs>
     <tabs>standard-Dashboard</tabs>
+<<<<<<< HEAD
+    <tabs>standard-Opportunity</tabs>
+=======
     <tabs>Pet_Inventory__c</tabs>
+>>>>>>> 008ae3404057d26e5859eb78c116c045df4f8a9d
     <uiType>Lightning</uiType>
     <utilityBar>Tu_Mascota_UtilityBar</utilityBar>
 </CustomApplication>

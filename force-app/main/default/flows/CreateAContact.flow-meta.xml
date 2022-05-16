@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Flow xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
     <apiVersion>54.0</apiVersion>
     <dynamicChoiceSets>
         <name>Account_Options</name>
@@ -11,16 +11,8 @@
             <field>Id</field>
         </outputAssignments>
     </dynamicChoiceSets>
-    <dynamicChoiceSets>
-        <name>PetType</name>
-        <dataType>Picklist</dataType>
-        <displayField xsi:nil="true"/>
-        <object xsi:nil="true"/>
-        <picklistField>Pet__c</picklistField>
-        <picklistObject>Contact</picklistObject>
-    </dynamicChoiceSets>
     <interviewLabel>Create A Contact {!$Flow.CurrentDateTime}</interviewLabel>
-    <label>Create a Contact</label>
+    <label>Create A Contact</label>
     <processMetadataValues>
         <name>BuilderType</name>
         <value>
@@ -130,6 +122,8 @@
             <fieldType>DropdownBox</fieldType>
             <isRequired>false</isRequired>
         </fields>
+<<<<<<< HEAD
+=======
         <fields>
             <name>Pet_Type</name>
             <choiceReferences>PetType</choiceReferences>
@@ -152,6 +146,7 @@
             <isRequired>true</isRequired>
             <storeOutputAutomatically>true</storeOutputAutomatically>
         </fields>
+>>>>>>> 008ae3404057d26e5859eb78c116c045df4f8a9d
         <showFooter>true</showFooter>
         <showHeader>true</showHeader>
     </screens>
