@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomTab xmlns="http://soap.sforce.com/2006/04/metadata">
     <description>Created by Lightning App Builder</description>
-    <flexiPage>Account_List</flexiPage>
-    <label>Account List</label>
-    <motif>Custom18: Form</motif>
+    <flexiPage>Opportunity_List</flexiPage>
+    <label>Opportunity List</label>
+    <motif>Custom75: IP Phone</motif>
 </CustomTab>
