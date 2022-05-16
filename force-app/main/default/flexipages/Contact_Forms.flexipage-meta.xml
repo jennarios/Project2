@@ -4,37 +4,17 @@
         <itemInstances>
             <componentInstance>
                 <componentInstanceProperties>
-                    <name>enableInlineEdit</name>
-                    <value>true</value>
+                    <name>flowLayout</name>
+                    <value>oneColumn</value>
                 </componentInstanceProperties>
                 <componentInstanceProperties>
-                    <name>entityName</name>
-                    <value>Pet_Inventory__c</value>
+                    <name>flowName</name>
+                    <value>CreateAContact</value>
                 </componentInstanceProperties>
-                <componentInstanceProperties>
-                    <name>filterName</name>
-                    <value>All</value>
-                </componentInstanceProperties>
-                <componentInstanceProperties>
-                    <name>hideActionBar</name>
-                    <value>false</value>
-                </componentInstanceProperties>
-                <componentInstanceProperties>
-                    <name>hideSearchBar</name>
-                    <value>false</value>
-                </componentInstanceProperties>
-                <componentInstanceProperties>
-                    <name>pageSize</name>
-                    <value>8</value>
-                </componentInstanceProperties>
-                <componentName>flexipage:filterListCard</componentName>
-                <identifier>flexipage_filterListCard</identifier>
+                <componentName>flowruntime:interview</componentName>
+                <identifier>flowruntime_interview</identifier>
             </componentInstance>
         </itemInstances>
-        <name>column1</name>
-        <type>Region</type>
-    </flexiPageRegions>
-    <flexiPageRegions>
         <itemInstances>
             <componentInstance>
                 <componentInstanceProperties>
@@ -43,11 +23,11 @@
                 </componentInstanceProperties>
                 <componentInstanceProperties>
                     <name>entityName</name>
-                    <value>Pet_Store__c</value>
+                    <value>ContactRequest</value>
                 </componentInstanceProperties>
                 <componentInstanceProperties>
                     <name>filterName</name>
-                    <value>All</value>
+                    <value>All_ContactRequests</value>
                 </componentInstanceProperties>
                 <componentInstanceProperties>
                     <name>hideActionBar</name>
@@ -62,15 +42,45 @@
                     <value>10</value>
                 </componentInstanceProperties>
                 <componentName>flexipage:filterListCard</componentName>
+                <identifier>flexipage_filterListCard</identifier>
+            </componentInstance>
+        </itemInstances>
+        <itemInstances>
+            <componentInstance>
+                <componentInstanceProperties>
+                    <name>enableInlineEdit</name>
+                    <value>true</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>entityName</name>
+                    <value>Customer</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>filterName</name>
+                    <value>All_Customers</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>hideActionBar</name>
+                    <value>false</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>hideSearchBar</name>
+                    <value>false</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>pageSize</name>
+                    <value>3</value>
+                </componentInstanceProperties>
+                <componentName>flexipage:filterListCard</componentName>
                 <identifier>flexipage_filterListCard2</identifier>
             </componentInstance>
         </itemInstances>
-        <name>column2</name>
+        <name>main</name>
         <type>Region</type>
     </flexiPageRegions>
-    <masterLabel>Pet Inventory</masterLabel>
+    <masterLabel>Contact Forms</masterLabel>
     <template>
-        <name>flexipage:appHomeTemplateTwoColumns</name>
+        <name>flexipage:defaultAppHomeTemplate</name>
     </template>
     <type>AppPage</type>
 </FlexiPage>
