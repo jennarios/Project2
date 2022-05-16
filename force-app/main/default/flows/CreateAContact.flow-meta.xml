@@ -162,7 +162,7 @@
             <targetReference>Get_Contact_Info</targetReference>
         </connector>
     </start>
-    <status>Active</status>
+    <status>Draft</status>
     <variables>
         <name>Create_A_Contact</name>
         <dataType>SObject</dataType>

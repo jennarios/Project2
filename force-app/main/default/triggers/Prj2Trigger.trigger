@@ -17,7 +17,6 @@ trigger Prj2Trigger on Account (before insert, before update, before delete, aft
               
           }
           when BEFORE_DELETE { 
-              DeletingAccountHandler.preventAccDel(Trigger.old);
           }
           when AFTER_INSERT { 
             
