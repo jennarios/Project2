@@ -93,14 +93,6 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>MyFirstClass</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>TestAccountControllerExtension</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
         <apexClass>TestChange_Stage</apexClass>
         <enabled>false</enabled>
     </classAccesses>
@@ -118,10 +110,6 @@
     </classAccesses>
     <classAccesses>
         <apexClass>TriggerHandler</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>test</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
@@ -270,7 +258,19 @@
         <readable>false</readable>
     </fieldPermissions>
     <layoutAssignments>
-        <layout>Opportunity-Opportunity Layout</layout>
+        <layout>Case-Case Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Pet_Inventory__c-Pet Inventory Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Pet_Store_Roster__c-Pet Store Roster Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Pet_Store__c-Pet Store Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Product2-Product Layout</layout>
     </layoutAssignments>
     <objectPermissions>
         <allowCreate>true</allowCreate>
