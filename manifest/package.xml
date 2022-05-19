@@ -72,6 +72,21 @@
     </types>
     <types>
         <members>*</members>
+        <members>Account_List</members>
+        <name>FlexiPage</name>
+    </types>
+    <types>
+        <members>*</members>
+        <members>Contacts_with_Cats</members>
+        <name>FlexiPage</name>
+    </types>
+    <types>
+        <members>*</members>
+        <members>Opportunity_List</members>
+        <name>FlexiPage</name>
+    </types>
+    <types>
+        <members>*</members>
         <members>tu_mascota</members>
         <name>ContentAsset</name>
     </types>
@@ -118,6 +133,21 @@
     <types>
         <members>*</members>
         <members>Contact_Forms</members>
+        <name>CustomTab</name>
+    </types>
+    <types>
+        <members>*</members>
+        <members>Basic_Information</members>
+        <name>CustomTab</name>
+    </types>
+    <types>
+        <members>*</members>
+        <members>Contacts_with_Cats</members>
+        <name>CustomTab</name>
+    </types>
+    <types>
+        <members>*</members>
+        <members>Opportunity_List</members>
         <name>CustomTab</name>
     </types>
     <types>
