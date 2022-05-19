@@ -72,7 +72,7 @@
     </types>
     <types>
         <members>*</members>
-        <members>Account_List</members>
+                <members>Account_List</members>
         <name>FlexiPage</name>
     </types>
     <types>
