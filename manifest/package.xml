@@ -37,6 +37,11 @@
     </types>
     <types>
         <members>*</members>
+        <members>Add_A_Record</members>
+        <name>FlexiPage</name>
+    </types>
+    <types>
+        <members>*</members>
         <members>Tu_Mascota</members>
         <name>FlexiPage</name>
     </types>
@@ -142,7 +147,7 @@
     </types>
     <types>
         <members>*</members>
-        <members> CustomController</members>
+        <members>Add_A_Record</members>
         <name>CustomTab</name>
     </types>
     <types>
