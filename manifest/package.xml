@@ -142,13 +142,8 @@
     </types>
     <types>
         <members>*</members>
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
         <members> CustomController</members>
-=======
         <members>Add_A_Record</members>
->>>>>>> cb4bc156a2159e5f615b65b9ea4c4674af05184c
         <name>CustomTab</name>
     </types>
     <types>
@@ -163,7 +158,6 @@
     </types>
     <types>
         <members>*</members>
->>>>>>> dd2da0cdb0141928cb80ef47c002d6447b35dac3
         <members>Contacts</members>
         <name>CustomTab</name>
     </types>
@@ -208,6 +202,7 @@
     <types>
         <members>*</members>
         <members>Survey_Event__e</members>
+        <members>Contact</members>
         <name>CustomObject</name>
     </types>
     <types>
