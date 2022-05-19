@@ -137,6 +137,24 @@
     </types>
     <types>
         <members>*</members>
+<<<<<<< HEAD
+=======
+        <members> CustomController</members>
+        <name>CustomTab</name>
+    </types>
+    <types>
+        <members>*</members>
+        <members>Contacts_with_Cats</members>
+        <name>CustomTab</name>
+    </types>
+    <types>
+        <members>*</members>
+        <members>Opportunity_List</members>
+        <name>CustomTab</name>
+    </types>
+    <types>
+        <members>*</members>
+>>>>>>> dd2da0cdb0141928cb80ef47c002d6447b35dac3
         <members>Contacts</members>
         <name>CustomTab</name>
     </types>
@@ -185,10 +203,6 @@
     </types>
     <types>
         <members>*</members>
-        <name>Profile</name>
-    </types>
-    <types>
-        <members>*</members>
         <name>Flow</name>
     </types>
     <types>
@@ -200,6 +214,6 @@
         <members>PublicReports/Sales_of_Cat_vs_Dog_Products_CBC</members>
         <members>PublicReports/Closed_Opportunities_48g</members>
         <name>Report</name>
-    </types>
+    </types> 
     <version>54.0</version>
 </Package>
