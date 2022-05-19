@@ -1,21 +1,29 @@
 /*
     Created by: Mustafa Rasouli
     Last Updated: 13 May 2022
-    Decscription: to retrieve records 
+    Decscription: Allow a user to create a record 
 */
 
-public with sharing class CustomController {
-    private final Account account;
+public class CustomController {
+    public Account account{get; private set;}
 
     public CustomController() {
-        account = [SELECT Id, Name, Site FROM Account 
-                   WHERE Id = :ApexPages.currentPage().getParameters().get('id')];
+        Id id = ApexPages.currentPage().getParameters().get('id');
+        
+        account = (id ==null) ? new Account() :[SELECT Id, Name, Site FROM Account WHERE id = :id]; 
+                   
     }
     public Account getAccount() {
         return account;
     }
     public PageReference save() {
-        update account;
-        return null;
+        try{
+            upsert(account);
+        }catch(System.DMLException e){
+            Apexpages.addMessages(e);
+            return null;
+        }
+        Pagereference redirect = new Apexpages.StandardController(account).view();
+        return(redirect);
     }
 }

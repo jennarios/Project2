@@ -142,7 +142,7 @@
     </types>
     <types>
         <members>*</members>
-        <members>Basic_Information</members>
+        <members> CustomController</members>
         <name>CustomTab</name>
     </types>
     <types>
@@ -205,10 +205,6 @@
     </types>
     <types>
         <members>*</members>
-        <name>Profile</name>
-    </types>
-    <types>
-        <members>*</members>
         <name>Flow</name>
     </types>
     <types>
@@ -220,6 +216,6 @@
         <members>PublicReports/Sales_of_Cat_vs_Dog_Products_CBC</members>
         <members>PublicReports/Closed_Opportunities_48g</members>
         <name>Report</name>
-    </types>
+    </types> 
     <version>54.0</version>
 </Package>
