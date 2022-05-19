@@ -117,6 +117,11 @@
     </types>
     <types>
         <members>*</members>
+        <members>Tu_Mascota_VF_Pages</members>
+        <name>CustomApplication</name>
+    </types>
+    <types>
+        <members>*</members>
         <members>Tu_Mascota_Home_Page</members>
         <name>CustomTab</name>
     </types>
