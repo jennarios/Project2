@@ -1,0 +1,20 @@
+<apex:page controller="ContactsWithCatsController" pageStyle="font-weight: bold" lightningStylesheets="true">
+    <apex:form >    
+        <apex:pageBlock >
+            <apex:outputPanel >
+                <apex:pageBlockTable value="{!Contacts}" var="con" style="background-color: #CBC3E3; font-weight: bold;">
+                    <apex:column headerValue="Contact Name" style="color: #6b4e91; font-weight: bold;">
+                        <apex:outputField value="{!con.name}">
+                            <apex:inlineEditSupport />
+                        </apex:outputField>
+                    </apex:column>
+                    <apex:column headervalue="Pet Type" style="color: #6b4e91; font-weight: bold;">
+                        <apex:outputField value="{!con.Pet__c}">
+                            <apex:inlineEditSupport />
+                        </apex:outputField>
+                    </apex:column>
+                </apex:pageBlockTable>
+            </apex:outputPanel>
+        </apex:pageBlock>
+    </apex:form>
+</apex:page>
