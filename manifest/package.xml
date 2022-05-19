@@ -137,7 +137,7 @@
     </types>
     <types>
         <members>*</members>
-        <members>Basic_Information</members>
+        <members> CustomController</members>
         <name>CustomTab</name>
     </types>
     <types>
