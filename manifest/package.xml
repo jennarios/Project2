@@ -77,7 +77,7 @@
     </types>
     <types>
         <members>*</members>
-        <members>Account_List</members>
+                <members>Account_List</members>
         <name>FlexiPage</name>
     </types>
     <types>
@@ -122,11 +122,6 @@
     </types>
     <types>
         <members>*</members>
-        <members>Tu_Mascota_VF_Pages</members>
-        <name>CustomApplication</name>
-    </types>
-    <types>
-        <members>*</members>
         <members>Tu_Mascota_Home_Page</members>
         <name>CustomTab</name>
     </types>
@@ -147,6 +142,7 @@
     </types>
     <types>
         <members>*</members>
+        <members> CustomController</members>
         <members>Add_A_Record</members>
         <name>CustomTab</name>
     </types>
