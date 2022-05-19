@@ -9,6 +9,6 @@ public class ContactsWithCatsController {
     public List<Contact> Contacts {get; set;}
             
     public ContactsWithCatsController() {
-    Contacts = [SELECT Name, Pet__c FROM Contact WHERE Pet__c = 'Cat'];
+    Contacts = [SELECT Name, Contact.Pet__c FROM Contact WHERE Contact.Pet__c = 'Cat'];
     }
 }
