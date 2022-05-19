@@ -17,6 +17,7 @@
     <tabs>Basic_Information</tabs>
     <tabs>Opportunity_List</tabs>
     <tabs>Contacts_with_Cats</tabs>
+    <tabs>Tu_Mascota</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>Tu_Mascota_VisualForce_Pages_UtilityBar</utilityBar>
 </CustomApplication>
