@@ -23,6 +23,7 @@
     <label>Tu Mascota</label>
     <navType>Standard</navType>
     <tabs>standard-home</tabs>
+    <tabs>Pages</tabs>
     <tabs>Pet_Inventory</tabs>
     <tabs>Contacts</tabs>
     <tabs>standard-Customer</tabs>

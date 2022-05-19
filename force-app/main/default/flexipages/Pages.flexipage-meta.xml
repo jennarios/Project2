@@ -26,37 +26,18 @@
                     <value>300</value>
                 </componentInstanceProperties>
                 <componentInstanceProperties>
+                    <name>label</name>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
                     <name>pageName</name>
-                    <value>CustomController</value>
+                    <value>ContactsWithCats</value>
                 </componentInstanceProperties>
                 <componentInstanceProperties>
                     <name>showLabel</name>
                     <value>true</value>
                 </componentInstanceProperties>
                 <componentName>flexipage:visualforcePage</componentName>
-                <identifier>flexipage_visualforcePage3</identifier>
-            </componentInstance>
-        </itemInstances>
-        <name>column1</name>
-        <type>Region</type>
-    </flexiPageRegions>
-    <flexiPageRegions>
-        <itemInstances>
-            <componentInstance>
-                <componentInstanceProperties>
-                    <name>height</name>
-                    <value>300</value>
-                </componentInstanceProperties>
-                <componentInstanceProperties>
-                    <name>pageName</name>
-                    <value>BasicInfo</value>
-                </componentInstanceProperties>
-                <componentInstanceProperties>
-                    <name>showLabel</name>
-                    <value>true</value>
-                </componentInstanceProperties>
-                <componentName>flexipage:visualforcePage</componentName>
-                <identifier>flexipage_visualforcePage2</identifier>
+                <identifier>flexipage_visualforcePage1</identifier>
             </componentInstance>
         </itemInstances>
         <itemInstances>
@@ -77,12 +58,12 @@
                 <identifier>flexipage_visualforcePage4</identifier>
             </componentInstance>
         </itemInstances>
-        <name>column2</name>
+        <name>main</name>
         <type>Region</type>
     </flexiPageRegions>
     <masterLabel>Pages</masterLabel>
     <template>
-        <name>flexipage:appHomeTemplateTwoColumns</name>
+        <name>flexipage:defaultAppHomeTemplate</name>
     </template>
     <type>AppPage</type>
 </FlexiPage>
