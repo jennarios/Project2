@@ -117,11 +117,6 @@
     </types>
     <types>
         <members>*</members>
-        <members>Tu_Mascota_VF_Pages</members>
-        <name>CustomApplication</name>
-    </types>
-    <types>
-        <members>*</members>
         <members>Tu_Mascota_Home_Page</members>
         <name>CustomTab</name>
     </types>
@@ -138,21 +133,6 @@
     <types>
         <members>*</members>
         <members>Contact_Forms</members>
-        <name>CustomTab</name>
-    </types>
-    <types>
-        <members>*</members>
-        <members>Basic_Information</members>
-        <name>CustomTab</name>
-    </types>
-    <types>
-        <members>*</members>
-        <members>Contacts_with_Cats</members>
-        <name>CustomTab</name>
-    </types>
-    <types>
-        <members>*</members>
-        <members>Opportunity_List</members>
         <name>CustomTab</name>
     </types>
     <types>
