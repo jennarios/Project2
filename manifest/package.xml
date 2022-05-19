@@ -206,6 +206,7 @@
     <types>
         <members>*</members>
         <members>Survey_Event__e</members>
+        <members>Contact</members>
         <name>CustomObject</name>
     </types>
     <types>
