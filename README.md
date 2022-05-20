@@ -1,18 +1,32 @@
-# Salesforce DX Project: Next Steps
+# Tu Mascota Pet Store
 
-Now that you’ve created a Salesforce DX project, what’s next? Here are some documentation resources to get you started.
+Team of associates created a pet store business. That must handle the Administration side while also creating Triggers and Visualforce pages for the developer side. The Apex Testing Framework is required for meeting the necessary code coverage
 
-## How Do You Plan to Deploy Your Changes?
+## Roles and Responsibilites
 
-Do you want to deploy a set of changes, or create a self-contained application? Choose a [development model](https://developer.salesforce.com/tools/vscode/en/user-guide/development-models).
+- Collaborated with my team to create an entity relationship diagram
+- Created a Task Autolaunched flow
+- Created a slide deck with everything that will not be shown in the demo
+- Created an Apex trigger and associated handler
+- Created a Visualforce page
+- Configured page layouts for custom and standard objects
+- Configured Opportunity Path with step by step guidance and celebratory effect upon completion
+- Created a custom app that incudes a custom home page
+ 
 
-## Configure Your Salesforce DX Project
+## Environment/Technologies
 
-The `sfdx-project.json` file contains useful configuration information for your project. See [Salesforce DX Project Configuration](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_ws_config.htm) in the _Salesforce DX Developer Guide_ for details about this file.
+- Scrumban, Git, Presentation, Data Modeling, Security and Access, UI Customization, Flow Builder, Apex Triggers, Apex Testing, Apex, Visualforce, Sales Cloud, Service Cloud, Salesforce, Experience Cloud
 
-## Read All About It
 
-- [Salesforce Extensions Documentation](https://developer.salesforce.com/tools/vscode/)
-- [Salesforce CLI Setup Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_setup.meta/sfdx_setup/sfdx_setup_intro.htm)
-- [Salesforce DX Developer Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_intro.htm)
-- [Salesforce CLI Command Reference](https://developer.salesforce.com/docs/atlas.en-us.sfdx_cli_reference.meta/sfdx_cli_reference/cli_reference.htm)
+
+
+## Authors
+
+- [@Samantha Rivera](https://github.com/Samygrivera)
+- [@Jenna Rios](https://github.com/jennarios)
+- [@Norman Breuer](https://github.com/nbreuer)
+- [@Mustafa Rasouli](https://github.com/mustafaxr)
+
+
+![Logo](https://cdn.discordapp.com/attachments/966169571243458590/977240956912959518/tu_mascota.png)
