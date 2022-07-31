@@ -131,12 +131,29 @@
             <isRequired>false</isRequired>
         </fields>
         <fields>
+            <name>Email</name>
+            <extensionName>flowruntime:email</extensionName>
+            <fieldType>ComponentInstance</fieldType>
+            <inputParameters>
+                <name>required</name>
+                <value>
+                    <booleanValue>true</booleanValue>
+                </value>
+            </inputParameters>
+            <inputsOnNextNavToAssocScrn>UseStoredValues</inputsOnNextNavToAssocScrn>
+            <isRequired>true</isRequired>
+            <outputParameters>
+                <assignToReference>Create_A_Contact.Email</assignToReference>
+                <name>value</name>
+            </outputParameters>
+        </fields>
+        <fields>
             <name>Pet_Type</name>
             <choiceReferences>Pet</choiceReferences>
             <dataType>String</dataType>
             <fieldText>Pet Type</fieldText>
             <fieldType>DropdownBox</fieldType>
-            <isRequired>false</isRequired>
+            <isRequired>true</isRequired>
         </fields>
         <showFooter>true</showFooter>
         <showHeader>true</showHeader>
@@ -148,7 +165,7 @@
             <targetReference>Get_Contact_Info</targetReference>
         </connector>
     </start>
-    <status>Draft</status>
+    <status>Active</status>
     <variables>
         <name>Create_A_Contact</name>
         <dataType>SObject</dataType>
