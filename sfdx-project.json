@@ -10,3 +10,14 @@
   "sfdcLoginUrl": "https://resourceful-koala-rc2imz-dev-ed.my.salesforce.com",
   "sourceApiVersion": "54.0"
 }
+
+{ 
+"packageDirectories" : [ 
+    { "path": "force-app", "default": true}, 
+    { "path" : "unpackaged" }, 
+    { "path" : "utils" } 
+  ],
+"namespace": "", 
+"sfdcLoginUrl" : "https://login.salesforce.com", 
+"sourceApiVersion": "44.0"
+}
