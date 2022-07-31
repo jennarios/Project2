@@ -5,28 +5,24 @@
             <componentInstance>
                 <componentInstanceProperties>
                     <name>height</name>
-                    <value>800</value>
-                </componentInstanceProperties>
-                <componentInstanceProperties>
-                    <name>label</name>
-                    <value>Contacts with Cats</value>
+                    <value>300</value>
                 </componentInstanceProperties>
                 <componentInstanceProperties>
                     <name>pageName</name>
-                    <value>ContactsWithCats</value>
+                    <value>CustomController</value>
                 </componentInstanceProperties>
                 <componentInstanceProperties>
                     <name>showLabel</name>
                     <value>true</value>
                 </componentInstanceProperties>
                 <componentName>flexipage:visualforcePage</componentName>
-                <identifier>flexipage_visualforcePage</identifier>
+                <identifier>flexipage_visualforcePage2</identifier>
             </componentInstance>
         </itemInstances>
         <name>main</name>
         <type>Region</type>
     </flexiPageRegions>
-    <masterLabel>Contacts with Cats</masterLabel>
+    <masterLabel>Create Account</masterLabel>
     <template>
         <name>flexipage:defaultAppHomeTemplate</name>
     </template>

@@ -49,6 +49,12 @@
             </value>
         </inputParameters>
         <inputParameters>
+            <name>senderAddress</name>
+            <value>
+                <elementReference>SenderEmail</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
             <name>emailSubject</name>
             <value>
                 <stringValue>{!$Record.Name} Opportunity Closed</stringValue>
@@ -56,10 +62,17 @@
         </inputParameters>
     </actionCalls>
     <apiVersion>54.0</apiVersion>
+    <constants>
+        <name>SenderEmail</name>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>rios.jenna@gmail.com</stringValue>
+        </value>
+    </constants>
     <decisions>
         <name>Closed_Won</name>
         <label>Change stage to Closed Won</label>
-        <locationX>578</locationX>
+        <locationX>446</locationX>
         <locationY>335</locationY>
         <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
         <rules>
@@ -144,7 +157,7 @@
         <storeOutputAutomatically>true</storeOutputAutomatically>
     </recordCreates>
     <start>
-        <locationX>452</locationX>
+        <locationX>320</locationX>
         <locationY>0</locationY>
         <connector>
             <targetReference>Closed_Won</targetReference>
@@ -161,5 +174,5 @@
         <recordTriggerType>CreateAndUpdate</recordTriggerType>
         <triggerType>RecordAfterSave</triggerType>
     </start>
-    <status>Active</status>
+    <status>Draft</status>
 </Flow>
