@@ -39,3 +39,6 @@ jobs:
           uses: github/codeql-action/upload-sarif@v2
           with:
             sarif_file: codescan.sarif
+        - name: CodeScan Scanner
+          uses: codescan-io/codescan-scanner-action@1.3
+
