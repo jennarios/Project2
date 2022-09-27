@@ -9,4 +9,5 @@ public class AccountControllerExtension {
         From Opportunity
         WHERE (IsWon = true or IsClosed = false)];
      }
-}
+
+   }
