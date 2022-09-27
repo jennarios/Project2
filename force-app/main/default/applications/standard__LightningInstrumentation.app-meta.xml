@@ -4,8 +4,8 @@
     <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
     <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
     <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
-    <label>LightningBolt</label>
+    <label>LightningInstrumentation</label>
     <navType>Standard</navType>
-    <tabs>standard-LightningBoltHome</tabs>
+    <tabs>standard-LightningInstrumentation</tabs>
     <uiType>Lightning</uiType>
 </CustomApplication>
