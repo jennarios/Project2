@@ -29,6 +29,14 @@
                 <behavior>Edit</behavior>
                 <field>Department</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Languages__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Level__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
@@ -149,6 +157,12 @@
     </layoutSections>
     <quickActionList>
         <quickActionListItems>
+            <quickActionName>FeedItem.TextPost</quickActionName>
+        </quickActionListItems>
+        <quickActionListItems>
+            <quickActionName>FeedItem.ContentPost</quickActionName>
+        </quickActionListItems>
+        <quickActionListItems>
             <quickActionName>NewTask</quickActionName>
         </quickActionListItems>
         <quickActionListItems>
@@ -174,12 +188,6 @@
         </quickActionListItems>
         <quickActionListItems>
             <quickActionName>FeedItem.QuestionPost</quickActionName>
-        </quickActionListItems>
-        <quickActionListItems>
-            <quickActionName>FeedItem.TextPost</quickActionName>
-        </quickActionListItems>
-        <quickActionListItems>
-            <quickActionName>FeedItem.ContentPost</quickActionName>
         </quickActionListItems>
         <quickActionListItems>
             <quickActionName>SendEmail</quickActionName>
