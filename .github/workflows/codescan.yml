@@ -41,7 +41,7 @@ jobs:
                 uses: codescan-io/codescan-scanner-action@5b2e8c5683ef6a5adc8fa3b7950bb07debccce12
                 with:
                     login: ${{ secrets.CODESCAN_TOKEN }}
-                    organization: jenna.rios3523
+                    organization: jenna-rios3523
                     projectKey: jennarios-Project2
             -   name: Upload SARIF file
                 uses: github/codeql-action/upload-sarif@v2
