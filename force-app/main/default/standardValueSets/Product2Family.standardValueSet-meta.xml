@@ -2,13 +2,8 @@
 <StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
     <sorted>false</sorted>
     <standardValue>
-        <fullName>Dog</fullName>
-        <default>true</default>
-        <label>Dog</label>
-    </standardValue>
-    <standardValue>
-        <fullName>Cat</fullName>
+        <fullName>None</fullName>
         <default>false</default>
-        <label>Cat</label>
+        <label>None</label>
     </standardValue>
 </StandardValueSet>
