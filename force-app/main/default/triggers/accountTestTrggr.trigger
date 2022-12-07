@@ -1,10 +1,10 @@
 trigger accountTestTrggr on Account (before insert, before update) {
-   
-    List<Contact> contacts = [select id, salutation, firstname, lastname, email
-      from Contact where accountId = :a.Id];
+ 
+   //For loop to iterate through all the incoming Account records
    for(Account a: Trigger.new){
  
-   
+      List<Contact> contacts = [select id, salutation, firstname, lastname, email
+      from Contact where accountId = :a.Id];
  
       for(Contact c: contacts){
  
