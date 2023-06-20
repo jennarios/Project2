@@ -2,11 +2,13 @@
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <version>56.0</version>
     <types>
+        <members>AccountControllerExt</members>
         <members>AccountControllerExtension</members>
         <members>AccountTriggerHandler</members>
         <members>ContactsWithCatsController</members>
         <members>CustomController</members>
         <members>DeletingAccountHandler</members>
+        <members>PreventContactDuplicate</members>
         <members>TestAccountControllerExtension</members>
         <members>TestChange_Stage</members>
         <members>TestDeletingAccount</members>
@@ -43,10 +45,14 @@
     </types>
     <types>
         <members>Account.AutorabitExtId__c</members>
+        <members>Contact.AutorabitExtId__c</members>
+        <members>Contact.Contact_Type__c</members>
         <name>CustomField</name>
     </types>
     <types>
         <members>Balcony__c</members>
+        <members>Floor_Tile__c</members>
+        <members>Garage__c</members>
         <name>CustomObject</name>
     </types>
     <types>
