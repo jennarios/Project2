@@ -13,5 +13,5 @@ public class TestChange_Stage {
         System.assertEquals('Prospecting', OppStage[0].stageName);   
                             
   }
-
+//new note here
 }
