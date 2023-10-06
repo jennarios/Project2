@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><Package xmlns="http://soap.sforce.com/2006/04/metadata">
-    <version>54.0</version>
+    <version>57.0</version>
     <types>
         <members>Case.LogACall</members>
         <members>Case.NewChildCase</members>
@@ -135,6 +135,9 @@
         <name>SharingRules</name>
     </types>
     <types>
+        <members>Account.NewLastWeek</members>
+        <members>Account.NewThisWeek</members>
+        <members>Account.PlatinumandGoldSLACustomers</members>
         <members>Product2.AllProducts</members>
         <name>ListView</name>
     </types>
@@ -291,6 +294,7 @@
         <name>FlexiPage</name>
     </types>
     <types>
+        <members>Account</members>
         <members>Product2</members>
         <name>CustomObject</name>
     </types>
@@ -345,6 +349,7 @@
         <name>Role</name>
     </types>
     <types>
+        <members>Owner</members>
         <members>sf_devops_InitializeEnvironments</members>
         <members>sf_devops_NamedCredentials</members>
         <name>PermissionSet</name>
@@ -364,6 +369,8 @@
         <members>ContactsWithCatsController</members>
         <members>CustomController</members>
         <members>DeletingAccountHandler</members>
+        <members>TemperatureConverter</members>
+        <members>TemperatureConverterTest</members>
         <members>TestAccountControllerExtension</members>
         <members>TestChange_Stage</members>
         <members>TestDeletingAccount</members>
@@ -597,6 +604,10 @@
         <name>ProfilePasswordPolicy</name>
     </types>
     <types>
+        <members>Account.Billing</members>
+        <name>WebLink</name>
+    </types>
+    <types>
         <members>CreateAContact</members>
         <members>Create_a_new_task</members>
         <members>FlowCreateSurveyEvent</members>
@@ -806,6 +817,45 @@
         <name>Layout</name>
     </types>
     <types>
+        <members>Account.AccountNumber</members>
+        <members>Account.AccountSource</members>
+        <members>Account.Active__c</members>
+        <members>Account.AnnualRevenue</members>
+        <members>Account.BillingAddress</members>
+        <members>Account.CleanStatus</members>
+        <members>Account.CustomerPriority__c</members>
+        <members>Account.DandbCompanyId</members>
+        <members>Account.Description</members>
+        <members>Account.DunsNumber</members>
+        <members>Account.Fax</members>
+        <members>Account.Industry</members>
+        <members>Account.Jigsaw</members>
+        <members>Account.NaicsCode</members>
+        <members>Account.NaicsDesc</members>
+        <members>Account.Name</members>
+        <members>Account.NumberOfEmployees</members>
+        <members>Account.NumberofLocations__c</members>
+        <members>Account.OwnerId</members>
+        <members>Account.Ownership</members>
+        <members>Account.ParentId</members>
+        <members>Account.Phone</members>
+        <members>Account.Product__c</members>
+        <members>Account.Rating</members>
+        <members>Account.SLAExpirationDate__c</members>
+        <members>Account.SLASerialNumber__c</members>
+        <members>Account.SLA__c</members>
+        <members>Account.ShippingAddress</members>
+        <members>Account.Sic</members>
+        <members>Account.SicDesc</members>
+        <members>Account.Site</members>
+        <members>Account.ThisPick__c</members>
+        <members>Account.TickerSymbol</members>
+        <members>Account.Tier</members>
+        <members>Account.Tradestyle</members>
+        <members>Account.Type</members>
+        <members>Account.UpsellOpportunity__c</members>
+        <members>Account.Website</members>
+        <members>Account.YearStarted</members>
         <members>Product2.Description</members>
         <members>Product2.DisplayUrl</members>
         <members>Product2.ExternalDataSourceId</members>
