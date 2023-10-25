@@ -1,0 +1,9 @@
+projectPath: ./autorabit_alldefault_vlocity_build
+manifest:
+- AttributeCategory/ADD
+- AttributeCategory/AddAdhd
+maxDepth: -1
+autoUpdateSettings: true
+separateMatrixVersions: true
+separateCalculationProcedureVersions: false
+CompileOnBuild: true
