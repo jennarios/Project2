@@ -12,4 +12,10 @@
         <type>Text</type>
         <unique>true</unique>
     </fields>
+    <validationRules>
+        <fullName>Account_Number_8_Characters</fullName>
+        <active>true</active>
+        <errorConditionFormula>LEN( AccountNumber) != 8</errorConditionFormula>
+        <errorMessage>Account number must be 8 characters long.</errorMessage>
+    </validationRules>
 </CustomObject>

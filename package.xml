@@ -56,4 +56,8 @@
         <members/>
         <name>EmailTemplate</name>
     </types>
+    <types>
+        <members>Account.Account_Number_8_Characters</members>
+        <name>ValidationRule</name>
+    </types>
 </Package>
