@@ -1,58 +1,58 @@
-name: CodeScan
+name: CI
+
 on:
   push:
-    branches: [main]
+    branches:
+    - master
   pull_request:
-    branches: [main]
+    branches:
+      - master
+      - feature/**
+
 jobs:
-  CodescanAnalysis:
+  build:
     runs-on: ubuntu-latest
+    env:    # The variables to set for your project and organization
+      codescan_org: 'jenna-rios3523'
+      codescan_project_key: 'jennarios-Project2'
+      codescan_token: ${{ secrets.codescan_token }}
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v2
-      - name: Changed Files  
-        uses: jitterbit/get-changed-files@v1
-        id: files
-        continue-on-error: true
-        with:
-          format: csv
-          token: ${{ secrets.GITHUB_TOKEN }}
-      - name: Cache files
-        uses: actions/cache@v2
-        with:
-            path: |
-                ~/.sonar
-            key: ${{ runner.os }}-sonar
-            restore-keys: ${{ runner.os }}-sonar
-      - name: Run Codescan On Push
-        if: github.event_name == 'push'
-        uses: codescan-io/codescan-scanner-action@1.4
-        with:
-          organization: jenna-rios3523
-          projectKey: jennarios-Project2
-          codeScanUrl: https://app.codescan.io/
-          login: ${{ secrets.CODESCAN_TOKEN }}
-          failOnRedQualityGate: true
-      - name: Run Codescan On PR
-        if: github.event_name == 'pull_request'
-        uses: codescan-io/codescan-scanner-action@1.4
-        with:
-          organization: jenna-rios3523
-          projectKey: jennarios-Project2
-          codeScanUrl: https://app.codescan.io/
-          login: ${{ secrets.CODESCAN_TOKEN }}
-          generateSarifFile: true
-          failOnRedQualityGate: true
-          args: |
-            sonar.pullrequest.branch=${{github.head_ref}}
-            sonar.pullrequest.base=main
-            sonar.pullrequest.key=${{github.event.number}}
-            sonar.inclusions=${{ steps.files.outputs.added_modified }}
-      - name: Upload SARIF file
-        if: steps.files.outputs.added_modified != ''
-        uses: github/codeql-action/upload-sarif@v2
-        with:
-          sarif_file: codescan.sarif
-      
+    - uses: actions/checkout@v1
+    - uses: actions/setup-node@v1.1.0
+    - name: Install SFDX
+      env:
+        SFDX_AUTOUPDATE_DISABLE: false
+        SFDX_USE_GENERIC_UNIX_KEYCHAIN: true
+        SFDX_DOMAIN_RETRY: 300
+        SFDX_PROJECT_AUTOUPDATE_DISABLE_FOR_PACKAGE_CREATE: true
+        SFDX_PROJECT_AUTOUPDATE_DISABLE_FOR_PACKAGE_VERSION_CREATE: true
+      run: |
+# Installing the Salesforce CLI
+        mkdir /tmp/sfdx
+        wget -q https://developer.salesforce.com/media/salesforce-cli/sfdx-linux-amd64.tar.xz -O /tmp/sfdx/sfdx-linux-amd64.tar.xz
+        tar xJf /tmp/sfdx/sfdx-linux-amd64.tar.xz -C /tmp/sfdx/ --strip-components 1
+        /tmp/sfdx/install
+ 
+# Installing the CodeScan plugin
+        echo y|sfdx plugins:install sfdx-codescan-plugin
+
+# What to run if a push triggers the build.
+    - name: Run Codescan On Push
+      if: github.event_name == 'push'
+      env:  
+        branch_name: ${{github.ref}}
+        branch_type: 'LONG'
+      run: |
+        sfdx codescan:run --token=$codescan_token --projectkey=$codescan_project_key --organization=$codescan_org -Dsonar.branch.name=${branch_name##*/} -Dsonar.branch.type=$branch_type
+    
+# What to run if a pull request triggers the build.
+    - name: Run Codescan On PR
+      if: github.event_name == 'pull_request'
+      env:  
+        branch_name: ${{github.head_ref}}
+        target: ${{github.base_ref}}
+        branch_type: SHORT 
+      run: |
+        sfdx codescan:run --token=$codescan_token --projectkey=$codescan_project_key --organization=$codescan_org -Dsonar.branch.name=$branch_name -Dsonar.branch.target=$target -Dsonar.branch.type=$branch_type
 
      
