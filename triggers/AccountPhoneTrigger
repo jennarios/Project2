@@ -1,8 +1,0 @@
-trigger phoneFieldTrg on Account (before Insert)
-{
-if(trigger.isBefore && trigger.isInsert)
-{
-if(!trigger.new.isEmpty())
-{
-
-//New Comment for commit
