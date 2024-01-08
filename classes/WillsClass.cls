@@ -1,5 +1,7 @@
 public class WillsClass{
 
 
-  public void fakeMethod(){}
+  public void fakeMethod(Integer param){
+    param = 2;
+  }
 }
