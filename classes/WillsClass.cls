@@ -1,1 +1,5 @@
-public class WillsClass{}
+public class WillsClass{
+
+
+  public void fakeMethod(){}
+}
