@@ -1,1 +1,1 @@
-sdasfasdf
+public class AnotherClass.cls{}
