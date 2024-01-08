@@ -1,1 +1,3 @@
-public class AnotherClass.cls{}
+public class AnotherClass.cls{
+  //Empty
+}
