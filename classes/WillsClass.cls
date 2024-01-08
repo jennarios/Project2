@@ -1,1 +1,3 @@
-public class WillsClass{}
+public class WillsClass{
+  //empty
+}
