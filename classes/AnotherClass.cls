@@ -1,3 +1,3 @@
 public class AnotherClass.cls{
-  //Empty
+  public AnotherClass(){}
 }
