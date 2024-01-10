@@ -1,3 +1,5 @@
 public class WillsClass{
-  //empty for testing triggers
+  public void NewMethod(Integer param){
+    param =4;
+  }
 }
