@@ -1,3 +1,6 @@
 public class WillsClass{
-  //empty for testing triggers
+
+  public void badIdea(Integer param){
+    param =1;
+  }
 }
