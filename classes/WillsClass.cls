@@ -6,6 +6,6 @@ public class WillsClass{
     param = 6;
   }
 
-  //empty for testing
+  //empty for testing triggers
 
 }
