@@ -4,6 +4,7 @@ public class WillsClass{
     //commit a method
     param = 2;
     param = 3;
+    param = 4;
   }
 
   //empty for testing triggers
