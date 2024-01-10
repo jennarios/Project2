@@ -1,3 +1,3 @@
 public class WillsClass{
-  //empty for testing
+  //empty for testing triggers
 }
