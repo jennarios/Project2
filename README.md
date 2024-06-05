@@ -6,7 +6,7 @@ I'm A certified Salesforce Administrator, and a our project 2 Team Lead. I have 
 Months experience as a salesforce developer, implementing Basic Web Technologies and Salesforce
 Specific Components.
 
-[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://app.revature.com/profile/JRios/561754463a46306e48017d4073f4cf53
+[![portfolio]([https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://app.revature.com/profile/JRios/561754463a46306e48017d4073f4cf53](https://app.revature.com/profile/JRios/963224223000bb6e0d5d78dd3493727d)
 )
 
 
