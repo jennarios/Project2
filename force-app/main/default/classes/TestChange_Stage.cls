@@ -9,9 +9,9 @@ public class TestChange_Stage {
     insert opp;
         
         List <Opportunity> OppStage = [SELECT StageName FROM Opportunity];
-        
-	System.assertEquals(1, OppStage.size());
-    System.assertEquals('Prospecting', OppStage[0].stageName);
+        System.assertEquals(1, OppStage.size());
+        System.assertEquals('Prospecting', OppStage[0].stageName);   
+                            
   }
-
+//new note here
 }
