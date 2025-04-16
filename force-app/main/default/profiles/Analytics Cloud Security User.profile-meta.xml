@@ -3690,7 +3690,7 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-EngagementChannelType</tab>
-        <visibility>Hidden</visibility>
+        <visibility>DefaultOff</visibility>
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-Entitlement</tab>
@@ -3742,11 +3742,11 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-Location</tab>
-        <visibility>Hidden</visibility>
+        <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-LocationGroup</tab>
-        <visibility>Hidden</visibility>
+        <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-Macro</tab>

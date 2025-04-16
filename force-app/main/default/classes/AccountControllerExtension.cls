@@ -5,7 +5,7 @@ public class AccountControllerExtension {
              this.acct = (Account) controller.getRecord();
     }
        public List<Opportunity> getChildOpps() {
-        return [Select Name, Amount, CloseDate, StageName
+        return [Select Name, Amount
         From Opportunity
         WHERE (isWon=True)];
      }

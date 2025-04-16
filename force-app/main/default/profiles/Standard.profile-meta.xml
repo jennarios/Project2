@@ -393,7 +393,7 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
+        <editable>true</editable>
         <field>Asset.ProductCode</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -3926,7 +3926,7 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-ContractLineItem</tab>
-        <visibility>Hidden</visibility>
+        <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-CredentialStuffingEventStore</tab>
@@ -3962,7 +3962,7 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-EngagementChannelType</tab>
-        <visibility>DefaultOn</visibility>
+        <visibility>DefaultOff</visibility>
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-Entitlement</tab>
@@ -4014,11 +4014,11 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-Location</tab>
-        <visibility>DefaultOff</visibility>
+        <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-LocationGroup</tab>
-        <visibility>DefaultOn</visibility>
+        <visibility>DefaultOff</visibility>
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-Macro</tab>
